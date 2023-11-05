@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "projectarmorcraft",
+	"version": "${version}",
+	"name": "projectarmorcraft",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/projectarmorcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"lietziboy.projectarmorcraft.Projectarmorcraft"
+		],
+		"client": [
+			"lietziboy.projectarmorcraft.ProjectarmorcraftClient"
+		],
+		"fabric-datagen": [
+			"lietziboy.projectarmorcraft.ProjectarmorcraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"projectarmorcraft.mixins.json",
+		{
+			"config": "projectarmorcraft.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
