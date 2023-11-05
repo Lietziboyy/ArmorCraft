@@ -3,20 +3,20 @@
 	"id": "projectarmorcraft",
 	"version": "${version}",
 	"name": "projectarmorcraft",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adding Modular Armor to Minecraft, Factorio style",
 	"authors": [
-		"Me!"
+		"Lietziboy"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT LICENSE",
 	"icon": "assets/projectarmorcraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"lietziboy.projectarmorcraft.Projectarmorcraft"
+          "lietziboy.projectarmorcraft.ProjectArmorCraft"
 		],
 		"client": [
 			"lietziboy.projectarmorcraft.ProjectarmorcraftClient"
@@ -39,6 +39,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"another-mod": "projectgunsmithing"
 	}
 }
