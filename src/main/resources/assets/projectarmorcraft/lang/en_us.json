@@ -1,6 +1,9 @@
 {
   "item.projectarmorcraft.rubber": "Rubber",
   "item.projectarmorcraft.raw_rubber": "Raw Rubber",
+  "item.projectarmorcraft.rubber_plate": "Rubber Plate",
+  "item.projectarmorcraft.kevlar": "Kevlar",
 
-  "itemGroup.projectarmorcraft": "ArmorCraft"
+
+  "itemGroup.projectarmorcraft.armorcraft": "ArmorCraft"
 }

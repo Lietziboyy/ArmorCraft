@@ -14,8 +14,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
     public static final Item RAW_RUBBER = registerItem("raw_rubber",
         new Item(new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
-
-
+    public static final Item RUBBER_PLATE = registerItem("rubber_plate",
+            new Item(new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+    public static final Item KEVLAR = registerItem("kevlar",
+            new Item(new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
 
     private static Item registerItem(String name, Item item) {
