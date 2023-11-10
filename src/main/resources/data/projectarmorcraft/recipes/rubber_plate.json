@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "projectarmorcraft:rubber"
+    }
+  },
+  "result": {
+    "item": "projectarmorcraft:rubber_plate",
+    "count": 1
+  }
+}
