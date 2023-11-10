@@ -4,9 +4,11 @@ import lietziboy.projectarmorcraft.ProjectArmorCraft;
 import lietziboy.projectarmorcraft.materials.KevlarArmorMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.item.ArmorItem;
 
 import static lietziboy.projectarmorcraft.ProjectArmorCraft.MOD_ID;
 
@@ -21,9 +23,11 @@ public class ModItems {
     public static final Item KEVLAR = registerItem("kevlar",
             new Item(new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
+
+    //Armor
+    public static final ArmorMaterial Kevlar_Armor_Material = new KevlarArmorMaterial();
     public static final Item BULLET_PROOF_VEST = registerItem("bullet_proof_vest",
-            new BulletProofVestItem(KevlarArmorMaterial, EquipmentSlot.CHEST,
-                    new FabricItemSettings().group(ModItemGroup.ARMORCRAFT).fireproof()));
+            new ArmorItem(Kevlar_Armor_Material, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT).fireproof()));
 
 
 

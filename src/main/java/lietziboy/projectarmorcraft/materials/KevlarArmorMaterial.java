@@ -1,7 +1,6 @@
 package lietziboy.projectarmorcraft.materials;
 
 import lietziboy.projectarmorcraft.item.ModItems;
-import net.minecraft.item.Item;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.entity.EquipmentSlot;
@@ -17,9 +16,6 @@ public class KevlarArmorMaterial implements ArmorMaterial {
     private static final SoundEvent EQUIP_SOUND = SoundEvents.ITEM_ARMOR_EQUIP_LEATHER;
     private static final Ingredient REPAIR_INGREDIENT = Ingredient.ofItems(ModItems.KEVLAR);
     private static final float KNOCKBACK_RESISTANCE = 1.0f;
-
-    public KevlarArmorMaterial(ArmorMaterial material, EquipmentSlot slot, Item.Settings settings) {
-    }
 
     @Override
     public int getDurability(EquipmentSlot slot) {
