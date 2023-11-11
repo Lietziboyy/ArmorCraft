@@ -4,6 +4,15 @@
   "item.projectarmorcraft.rubber_plate": "Rubber Plate",
   "item.projectarmorcraft.kevlar": "Kevlar",
   "item.projectarmorcraft.bullet_proof_vest": "Bullet Proof Vest",
+  "item.projectarmorcraft.kevlar_fiber": "Kevlar Fiber",
+  "item.projectarmorcraft.austria_uniform_helmet": "Austrian Uniform Helmet",
+  "item.projectarmorcraft.austria_uniform_chestplate": "Austrian Uniform Chestplate",
+  "item.projectarmorcraft.austria_uniform_leggings": "Austrian Uniform Leggings",
+  "item.projectarmorcraft.austria_uniform_boots": "Austrian Uniform Boots",
+  "item.projectarmorcraft.dutch_uniform_helmet": "Dutch Uniform Helmet",
+  "item.projectarmorcraft.dutch_uniform_chestplate": "Dutch Uniform Chestplate",
+  "item.projectarmorcraft.dutch_uniform_leggings": "Dutch Uniform Leggings",
+  "item.projectarmorcraft.dutch_uniform_boots": "Dutch Uniform Boots",
 
   "itemGroup.projectarmorcraft.armorcraft": "ArmorCraft"
 }
