@@ -2,6 +2,7 @@ package lietziboy.projectarmorcraft.item;
 
 import lietziboy.projectarmorcraft.ProjectArmorCraft;
 import lietziboy.projectarmorcraft.materials.DutchUniformArmorMaterial;
+import lietziboy.projectarmorcraft.materials.SFUniformArmorMaterial;
 import lietziboy.projectarmorcraft.materials.KevlarArmorMaterial;
 import lietziboy.projectarmorcraft.materials.AutUniformArmorMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -32,6 +33,9 @@ public class ModItems {
     public static final ArmorMaterial Kevlar_Armor_Material = new KevlarArmorMaterial();
     public static final ArmorMaterial AUT_UNIFORM_ARMOR_MATERIAL = new AutUniformArmorMaterial();
     public static final ArmorMaterial DUTCH_UNIFORM_ARMOR_MATERIAL = new DutchUniformArmorMaterial();
+
+    public static final ArmorMaterial SF_UNIFORM_ARMOR_MATERIAL = new SFUniformArmorMaterial();
+
     //armor
     public static final Item BULLET_PROOF_VEST = registerItem("bullet_proof_vest",
             new ArmorItem(Kevlar_Armor_Material, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT).fireproof()));
@@ -63,8 +67,19 @@ public class ModItems {
     public static final Item DUTCH_UNIFORM_BOOTS = registerItem("dutch_uniform_boots",
             new ArmorItem(DUTCH_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
+        // Special Forces Uniform
 
+    public static final Item SF_UNIFORM_HELMET = registerItem("sf_uniform_helmet",
+            new ArmorItem(SF_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
+    public static final Item SF_UNIFORM_CHESTPLATE = registerItem("sf_uniform_chestplate",
+            new ArmorItem(SF_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+
+    public static final Item SF_UNIFORM_LEGGINGS = registerItem("sf_uniform_leggings",
+            new ArmorItem(SF_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+
+    public static final Item SF_UNIFORM_BOOTS = registerItem("sf_uniform_boots",
+            new ArmorItem(SF_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
 
     private static Item registerItem(String name, Item item) {
