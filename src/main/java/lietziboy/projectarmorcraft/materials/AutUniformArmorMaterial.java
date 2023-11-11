@@ -7,8 +7,8 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class UniformArmorMaterial implements ArmorMaterial {
-    private static final String NAME = "kevlar";
+public class AutUniformArmorMaterial implements ArmorMaterial {
+    private static final String NAME = "aut_uniform";
     private static final float TOUGHNESS = 0.0F;
     private static final int[] DURABILITY = new int[] {456, 487, 543, 470}; // Durability of Boots, Leggings, Chestplate, Helmet
     private static final int[] PROTECTION = new int[] {1, 1,5, 2,5, 1}; // Armor points of Boots, Leggings, Chestplate, Helmet
