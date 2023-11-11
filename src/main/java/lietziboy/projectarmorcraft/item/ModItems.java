@@ -35,6 +35,7 @@ public class ModItems {
     public static final Item BULLET_PROOF_VEST = registerItem("bullet_proof_vest",
             new ArmorItem(Kevlar_Armor_Material, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT).fireproof()));
 
+        // austrian uniform
     public static final Item AUT_UNIFORM_HELMET = registerItem("austria_uniform_helmet",
             new ArmorItem(Uniform_Armor_Material, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
@@ -47,6 +48,19 @@ public class ModItems {
     public static final Item AUT_UNIFORM_BOOTS = registerItem("austria_uniform_boots",
             new ArmorItem(Uniform_Armor_Material, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
+        // dutch uniform
+
+    public static final Item DUTCH_UNIFORM_HELMET = registerItem("dutch_uniform_helmet",
+            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+
+    public static final Item DUTCH_UNIFORM_CHESTPLATE = registerItem("dutch_uniform_chestplate",
+            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+
+    public static final Item DUTCH_UNIFORM_LEGGINGS = registerItem("dutch_uniform_leggings",
+            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+
+    public static final Item DUTCH_UNIFORM_BOOTS = registerItem("dutch_uniform_boots",
+            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
 
 
