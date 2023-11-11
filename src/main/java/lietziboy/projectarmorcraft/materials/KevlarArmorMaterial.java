@@ -10,8 +10,8 @@ import net.minecraft.recipe.Ingredient;
 public class KevlarArmorMaterial implements ArmorMaterial {
     private static final String NAME = "kevlar";
     private static final float TOUGHNESS = 0.0F;
-    private static final int[] DURABILITY = new int[] {137, 158, 600, 116}; // Durability of Boots, Leggings, Chestplate, Helmet
-    private static final int[] PROTECTION = new int[] {2, 4, 4, 2}; // Armor points of Boots, Leggings, Chestplate, Helmet
+    private static final int[] DURABILITY = new int[] {0, 0, 600, 0}; // Durability of Boots, Leggings, Chestplate, Helmet
+    private static final int[] PROTECTION = new int[] {0, 0, 3,5, 0}; // Armor points of Boots, Leggings, Chestplate, Helmet
     private static final int ENCHANTABILITY = 20;
     private static final SoundEvent EQUIP_SOUND = SoundEvents.ITEM_ARMOR_EQUIP_LEATHER;
     private static final Ingredient REPAIR_INGREDIENT = Ingredient.ofItems(ModItems.KEVLAR);
