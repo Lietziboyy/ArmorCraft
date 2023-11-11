@@ -1,8 +1,9 @@
 package lietziboy.projectarmorcraft.item;
 
 import lietziboy.projectarmorcraft.ProjectArmorCraft;
+import lietziboy.projectarmorcraft.materials.DutchUniformArmorMaterial;
 import lietziboy.projectarmorcraft.materials.KevlarArmorMaterial;
-import lietziboy.projectarmorcraft.materials.UniformArmorMaterial;
+import lietziboy.projectarmorcraft.materials.AutUniformArmorMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
@@ -29,38 +30,38 @@ public class ModItems {
 
     //Armor Material interfaces
     public static final ArmorMaterial Kevlar_Armor_Material = new KevlarArmorMaterial();
-    public static final ArmorMaterial Uniform_Armor_Material = new UniformArmorMaterial();
-
+    public static final ArmorMaterial AUT_UNIFORM_ARMOR_MATERIAL = new AutUniformArmorMaterial();
+    public static final ArmorMaterial DUTCH_UNIFORM_ARMOR_MATERIAL = new DutchUniformArmorMaterial();
     //armor
     public static final Item BULLET_PROOF_VEST = registerItem("bullet_proof_vest",
             new ArmorItem(Kevlar_Armor_Material, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT).fireproof()));
 
         // austrian uniform
     public static final Item AUT_UNIFORM_HELMET = registerItem("austria_uniform_helmet",
-            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+            new ArmorItem(AUT_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
     public static final Item AUT_UNIFORM_CHESTPLATE = registerItem("austria_uniform_chestplate",
-            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+            new ArmorItem(AUT_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
     public static final Item AUT_UNIFORM_LEGGINGS = registerItem("austria_uniform_leggings",
-            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+            new ArmorItem(AUT_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
     public static final Item AUT_UNIFORM_BOOTS = registerItem("austria_uniform_boots",
-            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+            new ArmorItem(AUT_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
         // dutch uniform
 
     public static final Item DUTCH_UNIFORM_HELMET = registerItem("dutch_uniform_helmet",
-            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+            new ArmorItem(DUTCH_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
     public static final Item DUTCH_UNIFORM_CHESTPLATE = registerItem("dutch_uniform_chestplate",
-            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+            new ArmorItem(DUTCH_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
     public static final Item DUTCH_UNIFORM_LEGGINGS = registerItem("dutch_uniform_leggings",
-            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+            new ArmorItem(DUTCH_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
     public static final Item DUTCH_UNIFORM_BOOTS = registerItem("dutch_uniform_boots",
-            new ArmorItem(Uniform_Armor_Material, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
+            new ArmorItem(DUTCH_UNIFORM_ARMOR_MATERIAL, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.ARMORCRAFT)));
 
 
 
