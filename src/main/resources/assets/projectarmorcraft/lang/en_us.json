@@ -5,6 +5,7 @@
   "item.projectarmorcraft.kevlar": "Kevlar",
   "item.projectarmorcraft.bullet_proof_vest": "Bullet Proof Vest",
   "item.projectarmorcraft.kevlar_fiber": "Kevlar Fiber",
+
   "item.projectarmorcraft.austria_uniform_helmet": "Austrian Uniform Helmet",
   "item.projectarmorcraft.austria_uniform_chestplate": "Austrian Uniform Chestplate",
   "item.projectarmorcraft.austria_uniform_leggings": "Austrian Uniform Leggings",
@@ -14,6 +15,11 @@
   "item.projectarmorcraft.dutch_uniform_chestplate": "Dutch Uniform Chestplate",
   "item.projectarmorcraft.dutch_uniform_leggings": "Dutch Uniform Leggings",
   "item.projectarmorcraft.dutch_uniform_boots": "Dutch Uniform Boots",
+
+  "item.projectarmorcraft.sf_uniform_helmet": "Special Forces Uniform Helmet",
+  "item.projectarmorcraft.sf_uniform_chestplate": "Special Forces Uniform Chestplate",
+  "item.projectarmorcraft.sf_uniform_leggings": "Special Forces Uniform Leggings",
+  "item.projectarmorcraft.sf_uniform_boots": "Special Forces Uniform Boots",
 
   "itemGroup.projectarmorcraft.armorcraft": "ArmorCraft"
 }
